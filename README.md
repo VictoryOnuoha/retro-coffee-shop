@@ -23,7 +23,7 @@ View Live: https://retro-coffee-shop.herokuapp.com/index.html
 ## Environment Variables
 
 To run this project, navigate into retro-coffee-shop folder
-and double click the "index" file
+and cd the "index" file
 
 ## Screenshots
 
