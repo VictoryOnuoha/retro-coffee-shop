@@ -1,0 +1,118 @@
+/*Universal */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    margin: auto;
+}
+
+/* a,
+a:visited {
+    text-decoration: none;
+    color: #5BACC3;
+} */
+
+
+/*Header */
+.navigation,
+.nitro {
+    background-color: #FFF0ED;
+}
+
+.navigation {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation__logo {
+    width: 2.5rem;
+
+    display: inline;
+    margin: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #393939;
+    font-weight: 600;
+}
+
+.navigation h1 {
+    font-size: 2rem;
+    font-weight: 390;
+    display: inline;
+}
+
+.navigation__list .navigation__list-item {
+    display: inline;
+}
+
+.navigation__list-item {
+    margin: 0 0.5rem;
+
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+#navigation__selected {
+    color: #5BACC3;
+}
+
+/*Footer */
+.footer {
+    background-color: #FFF0ED;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__logo--left {
+    position: absolute;
+    left: -3rem;
+    top: 1rem;
+}
+
+.footer__logo--right {
+    position: absolute;
+    right: -3rem;
+    top: 5rem;
+}
+
+.footer__logo {
+    width: 8rem;
+    opacity: 0.3;
+}
+
+.address h3,
+.hours h3,
+.socials h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.address p,
+.hours p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.socials__icon {
+    width: 2.5rem;
+}
+
+.address,
+.hours,
+.socials {
+    display: inline-block;
+    margin: 1.5rem;
+    padding: 1rem;
+}

@@ -1,0 +1,347 @@
+@keyframes flash {
+    0% {
+        background-color: #393939;
+    }
+
+    100% {
+        background-color: #5BACC3;
+    }
+}
+
+
+
+/*Nitro Coffee */
+.nitro {
+
+    padding: 2rem;
+}
+
+.nitro h1,
+.products h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.nitro h1 {
+    margin: 0;
+}
+
+.nitro__about {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.nitro img {
+    height: 18.75rem;
+    display: inline-block;
+    position: relative;
+    left: 20rem;
+}
+
+.nitro__intro {
+    display: inline-block;
+    margin: 1rem;
+    width: 25%;
+    position: relative;
+    bottom: 2rem;
+    left: 5rem;
+
+}
+
+/* Base state */
+.product__button,
+.nitro__button {
+    background-color: #5BACC3;
+    color: white;
+    border: 0 solid #5BACC3;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    transition: border 2s;
+
+}
+
+.nitro__button {
+    position: relative;
+}
+
+
+.nitro__button--black:hover {
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0rem;
+    border: 0.1rem solid #393939;
+    padding: 0.2rem 1.5rem;
+    width: 8.5rem;
+    height: 2.8rem;
+
+}
+
+
+.nitro__button--black {
+    position: absolute;
+    bottom: -0.5rem;
+    left: -0.3rem;
+    border: 0.1rem solid #393939;
+    padding: 0.7rem 1.5rem;
+    width: 8.5rem;
+    height: 3.1rem;
+
+}
+
+.nitro a {
+    color: white;
+}
+
+.nitro a,
+.socials a {
+    text-decoration: none;
+}
+
+
+
+/*Products */
+.products {
+    background-color: #F7F7F7;
+    padding: 3rem;
+
+
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products h2 {
+    margin-top: 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.products h3 {
+    font-size: 1.563rem;
+    font-weight: 300;
+}
+
+.products__price {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5BACC3;
+}
+
+.products__card {
+    width: 25%;
+    height: 25rem;
+    border: 0 solid white;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 2rem 2rem;
+    text-align: center;
+    background-color: white;
+
+}
+
+.products__card img {
+    padding: 1rem;
+}
+
+.product-buttons {
+    position: relative;
+    width: 9rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.product__button--black:hover {
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0rem;
+    border: 0.1rem solid #393939;
+    padding: 0.2rem 1.5rem;
+    width: 7.3rem;
+    height: 2.8rem;
+}
+
+
+.product__button a {
+    color: white;
+    text-decoration: none;
+}
+
+.product__button--black {
+    position: absolute;
+    bottom: -0.5rem;
+    left: -0.3rem;
+    border: 0.1rem solid #393939;
+    padding: 0.7rem 1.5rem;
+    width: 7.3rem;
+    height: 2.9rem;
+}
+
+
+
+.products__detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFF0ED;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+
+
+}
+
+.product__image {
+    max-height: 25rem;
+    max-width: 30orem;
+}
+
+.products__description {
+    margin-bottom: 0;
+}
+
+.products__quantity {
+    margin-top: 0;
+    text-align: left;
+}
+
+.products__price {
+    font-size: 1.5rem;
+}
+
+.detail--1 {
+    padding-bottom: 2rem;
+}
+
+.detail--2 {
+    padding-bottom: 1.5rem;
+}
+
+.detail--3 {
+    padding-bottom: 2.2rem;
+}
+
+/*Discount */
+.discount {
+    padding: 6rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+.discount__about {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.discount__header {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+.discount__text {
+    width: 80%;
+}
+
+.discount__code {
+    color: white;
+    background-color: #393939;
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    animation: flash 2.5s infinite;
+}
+
+.discount__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.discount__icon {
+    max-width: 4rem;
+    max-height: 2rem;
+
+}
+
+.discount__buttons {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.discount__button--black {
+    position: absolute;
+    bottom: -0.5rem;
+    left: -0.3rem;
+    border: 0.1rem solid #393939;
+    padding: 0.7rem 1.5rem;
+    width: 9rem;
+    height: 2.9rem;
+
+}
+
+.discount__button--black:hover {
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0rem;
+    border: 0.1rem solid #393939;
+    padding: 0.2rem 1.5rem;
+    width: 9.1rem;
+    height: 2.8rem;
+    animation: 2s infinite;
+}
+
+
+.discount__button,
+.product__button {
+    background-color: #5BACC3;
+    border: 0px solid #5BACC3;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+.discount__banner {
+    background-image: url(../assets/coldbrewbackground.png);
+    width: 40%;
+    margin-right: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition-duration: 2s;
+}
+
+.discount-card__blue {
+    padding: 2rem;
+    width: 28rem;
+    height: 25rem;
+    border: 0.25rem solid #5BACC3;
+    position: absolute;
+    bottom: 1.3rem;
+    left: -1.5rem;
+}
+
+.discount__tilted {
+    padding: 4rem;
+}
+
+.discount__banner:hover {
+    transform: rotate(360deg);
+}

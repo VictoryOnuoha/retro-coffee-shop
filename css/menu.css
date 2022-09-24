@@ -1,0 +1,180 @@
+/* Nav Section*/
+
+.primary-navigation {
+    background-color: #FFF0ED;
+    padding: 1rem;
+}
+
+.primary-navigation__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-navigation__logo {
+    width: 2rem;
+    display: inline;
+    margin: 0;
+}
+
+.primary-navigation__list-item,
+.primary-navigation__list,
+.primary-navigation a {
+    display: inline;
+}
+
+.primary-navigation__container a {
+    font-weight: 700;
+}
+
+.primary-navigation__list-item :visited {
+    color: #393939;
+}
+
+.primary-navigation h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    display: inline;
+}
+
+.primary-navigation__list-item {
+    margin: 0 0.5rem;
+}
+
+.primary-navigation__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+
+
+/* Hero Section*/
+.hero-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.hero-card {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/coffee-circle.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    padding: 13rem;
+}
+
+
+.hero-container-title {
+    background-color: #393939;
+    padding: 2rem;
+    width: 15rem;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+/* Blue Box*/
+.hero-card__blue {
+    padding: 2rem;
+    width: 15rem;
+    height: 10rem;
+    border: 0.25rem solid #5BACC3;
+    position: absolute;
+    bottom: 0.3rem;
+    left: -0.8rem;
+}
+
+.hero-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 300;
+    color: white;
+
+
+}
+
+.hero-menu {
+    background-color: #393939;
+    width: 100%;
+}
+
+.hero-menu-list {
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-menu-list-item {
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+
+    border-left: 0.2rem solid #5BACC3;
+}
+
+/* Menu Section*/
+
+.menu-pink {
+    background-color: #FFF0ED;
+    padding-bottom: 2rem;
+}
+
+.menu-pink h2,
+.menu-grey h2 {
+    font-size: 2.5rem;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 0;
+}
+
+.menu-pink h3,
+.menu-grey h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.menu__about {
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    margin-left: 20rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.menu__price {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #5BACC3;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.menu-grey {
+    background-color: #F7F7F7;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
