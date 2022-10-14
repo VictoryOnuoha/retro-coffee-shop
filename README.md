@@ -28,6 +28,5 @@ and cd the "index" file
 ## LIVE PREVIEW 
 
 
-![retro cofee ](https://user-images.githubusercontent.com/34638854/195835381-15f5b147-7915-4839-8f54-08abec16992c.png)
 
 
