@@ -25,7 +25,7 @@ View Live: https://retro-coffee-shop.herokuapp.com/index.html
 To run this project, navigate into retro-coffee-shop folder
 and cd the "index" file
 
-## LIVE PREVIEW 
+## CLICK WEBSITE  LINK ABOVE FOR LIVE PREVIEW 
 
 
 
