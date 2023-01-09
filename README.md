@@ -9,7 +9,7 @@ The Retro coffee shop is a dynamic multi-page website.
 It has interactive styling and displays the different products in 
 minimal and user friendly designs. 
 
-View Live: https://retro-coffee-shop.herokuapp.com/index.html
+View Live: https://victoryonuoha.github.io/retro-coffee-shop/index.html
 
 
 ## Authors
